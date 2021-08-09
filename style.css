@@ -2,6 +2,7 @@
 
 body {
     background-color: #212529;
+    height: 100vh;
 }
 
 h1 {
@@ -20,4 +21,13 @@ p {
 
 .container {
     text-align: center;
+}
+
+.top-buffer {
+    margin-top: 50px;
+}
+
+#particles-js {
+    height: 100%;
+    width: 100%;
 }
