@@ -2,7 +2,6 @@
 
 body {
     background-color: #212529;
-    height: 100vh;
 }
 
 h1 {
@@ -28,6 +27,20 @@ p {
 }
 
 #particles-js {
-    height: 100%;
+    position: absolute;
     width: 100%;
+    height: 100%;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+  
+#particles-js {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
 }
