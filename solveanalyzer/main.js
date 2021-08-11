@@ -10,7 +10,6 @@ function check() {
         textSteps = ["Cross", "F2L", "OLL", "PLL"]
         yourPercents = [(cross/solved*100), (f2l/solved*100), (oll/solved*100), (pll/solved*100)]
         idealTimes = [solved*0.12, solved*0.50, solved*0.165, solved*0.215]
-        console.log("Stop fucking with site.")
         for (i in yourPercents) {
             id = "#" + steps[i] + "Text"
             idIdeal = id + "Ideal"

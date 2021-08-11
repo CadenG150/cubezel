@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;700&display=swap');
+
+body {
+    background-color: #212529;
+    color: white;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 6em;
+}
+
+p {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 3em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#author {
+    font-size: 2em;
+}
+
+.container {
+    text-align: center;
+}
+
+.top-buffer {
+    margin-top: 50px;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+  
+#particles-js {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.main-btn {
+    font-size: 3em;
+}
+
+.form-label {
+    font-size: 2em;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-btn {
+        font-size: 1.5em;
+        margin-top: 50px;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    p {
+        font-size: 1em;
+    }
+    #author {
+        font-size: 1em;
+    }
+    .percentage {
+        font-size: 2em;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .main-btn {
+        font-size: 2em;
+        white-space: nowrap;
+    }
+}
+
+.percentage {
+    font-size: 4em;
+}
+
+.breaker {
+    position: relative;
+    background-color: #1f2124;
+    left: 0px;
+    height: 5vh;
+    width: 100%;
+}
+
+#info {
+    font-size: 1em;
+}
+
+#scdb {
+    font-size: 1em;
+}
+
+.events {
+    text-align: left;
+    font-weight: 500;
+    font-size: 4.5em;
+}
+
+.subsets {
+    text-align: left;
+    font-weight: 500;
+    font-size: 3.5em;
+}
+
+.individual {
+    text-align: left;
+}
